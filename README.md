@@ -2,11 +2,11 @@
 
 {
 
-    int decrescent(int *vetor, int vsize){
+    int decrescent(int *vetor, int vSize){
         int x;
       
-        for (int i=0; i<vsize - 1; i++){
-            for (int j=0; j<vsize - 1; j++){
+        for (int i=0; i<vSize - 1; i++){
+            for (int j=0; j<vSize - 1; j++){
                 if (vetor[j] < vetor[j+1]){
                     x = vetor[j];
                     vetor[j] = vetor[j+1];
@@ -18,14 +18,13 @@
         return *vetor;
     }
 }
-
 {
 
-    int crescent(int *vetor, int vsize){
+    int crescent(int *vetor, int vSize){
         int x;
     
-        for (int i=0; i<vsize - 1; i++){
-            for (int j=0; j<vsize - 1; j++){
+        for (int i=0; i<vSize - 1; i++){
+            for (int j=0; j<vSize - 1; j++){
                 if (vetor[j] > vetor[j+1]){
                     x = vetor[j];
                     vetor[j] = vetor[j+1];
