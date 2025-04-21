@@ -15,7 +15,7 @@
             }
         }
     
-        return *vetor;
+        return (*vetor);
     }
 }
 {
@@ -33,6 +33,6 @@
             }
         }
     
-        return *vetor;
+        return (*vetor);
     }
 }
